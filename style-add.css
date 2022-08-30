@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@100;400;800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins ,'Noto Sans', sans-serif;
+    font-size: 0.88rem;
+    background: #F2F2F2;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+.container{
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
+}
+
+a{
+    color: #363949;
+}
+
+h3,h4{
+    font-size: 0.8rem;
+}
+
+.profile-photo{
+    width: 2.8rem;
+    width: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.text-muted{
+    color: #7d8da1;
+}
+
+p{
+    color: #677483;
+}
+
+b{
+    color:#363949 ;
+}
+
+.primary{
+    color: #7380ec;
+}
+
+.success{
+    color: #41f1b6;
+}
+
+aside{
+    height: 100vh;
+}
+
+aside .top{
+    
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+
+aside .logo img{
+    margin-left: 1rem;
+    width: 135px;
+    height: 40px;
+}
+
+aside .close{
+    display: none;
+}
+
+aside .sidebar{
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    position: relative;
+    top: 3rem;
+    background: #fff;
+    border-radius: 0px 10px 10px 0px;
+    overflow: hidden;
+}
+
+aside h3{
+    font-weight: 550;
+}
+
+aside .sidebar a{
+    display: flex;
+    color: #7d8da1;
+
+    margin-left: 2rem;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+    height: 3.7rem;
+    transition: all 300ms ease;
+}
+
+aside .sidebar a span{
+    font-size: 1.6rem;
+    transition: all 300ms ease;
+}
+
+aside .sidebar a:last-child{
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+}
+
+aside .sidebar a.active{
+    background: #ccc9f0;
+    color: #363949;
+    margin-left: 0;
+}
+
+aside .sidebar a.active:before{
+    content: '';
+    width: 6px;
+    height: 100%;
+    background:#363949 ;
+}
+
+aside .sidebar a.active span{
+    color: #363949;
+    margin-left: calc(1rem -3px);
+}
+
+aside .sidebar a:hover{
+    color: #363949;
+}
+
+aside .sidebar a:hover span{
+    margin-left: 0.7rem;
+}
+
+aside .sidebar .cronograma-count{
+    background: rgb(230, 95, 95);
+    color: #F2F2F2;
+    padding: 2px 9px;
+    border-radius: 60%;
+}
+
+main{
+    margin-top: 1.4rem;
+}
+
+main .date{
+    display: inline-block;
+    background: #dce1eb;
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1.6rem;
+}
+
+main .date input[type="date"]{
+    cursor: pointer;
+    background: transparent;
+    color: #363949;
+}
+
+.rigth{
+    margin-top: 1.4rem;
+}
+
+.rigth .top{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.rigth .tema{
+    background: rgba(132,139,200,0.18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+}
+
+.rigth .tema span{
+    font-size: 1.2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rigth .tema span.active{
+    background: rgb(230, 95, 95);
+    color: #fff;
+    border-radius: 0.4rem;
+}
+
+.rigth .top .perfil{
+    display: flex;
+    gap: 2rem;
+    text-align: right;
+    margin-right: 2rem;
+
+}
+
+img[src="perfil.png"]{
+    border-radius: 50%;
+}
+
+.rigth .top .perfil p{
+    font-style: italic;
+}
+
+main .tela-add .corpo-formulario{
+    
+    background: #fff;
+    height: 600px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .tela-add .add-meio .dados-paciente table{
+    background:#fff;
+    width: 100%;
+    border-radius: 15px;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+main .tela-add .add-meio{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+main .tela-add .add-meio .nome-medico h3{
+    font-size: 14px;
+}
+
+
+main .tela-add .add-meio .titulos{
+    margin-top: 0.5rem;
+}
+
+main .tela-add .add-meio .titulos a{
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+main .tela-add .add-meio .inputs{
+    display: flex;
+    gap: 3rem;
+}
+
+main .tela-add .add-meio .inputs .input-crm{
+    background: #c7c8ca;
+    margin-top: 4px;
+    border-radius:4px;
+    display: flex;
+}
+
+main .tela-add .add-meio .inputs .input-crm input{
+    width: 90%;
+    border: none;
+    border-radius: 4px;
+    padding: 1px;
+    background: #DCDCDC;
+    font-size: 10pt;
+    outline: none;
+    box-sizing: border-box;
+}
+
+main .tela-add .add-meio .inputs .input-nome{
+    background: #c7c8ca;
+    margin-top: 4px;
+    border-radius:4px;
+    display: flex;
+}
+
+main .tela-add .add-meio .inputs .input-nome input{
+    width: 90%;
+    border: none;
+    border-radius: 4px;
+    padding: 1px;
+    background: #DCDCDC;
+    font-size: 10pt;
+    outline: none;
+    box-sizing: border-box;
+}
+
+main .tela-add .add-meio .inputs span{
+    font-size: 23px;
+    color: #418bec;
+}
+
+main .tela-add .add-meio .dados-paciente .titulos-paciente{
+    margin-top: 0.5rem;
+}
+
+main .tela-add .add-meio .dados-paciente .titulos-paciente a{
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+main .tela-add .add-meio .dados-paciente input{
+    width: 196PX;
+    border: none;
+    border-radius: 4px;
+    padding: 4.5px;
+    background: #DCDCDC;
+    font-size: 10pt;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 37PX;
+}
+
+main .tela-add .add-meio .dados-paciente .titulo-paciente{
+    margin-top: 1rem;
+}
+
+main .tela-add .add-meio .dados-paciente .titulo-paciente h3{
+    font-size: 14px;
+}
+
+main .tela-add .add-meio .procedimento{
+    margin-top: 1rem;
+}
+
+main .tela-add .add-meio .procedimento h3{
+    font-size: 14px;
+}
+
+main .tela-add .add-meio .procedimento input{
+    border: none;
+    border-radius: 4px;
+    padding: 5.5px;
+    background: #DCDCDC;
+    font-size: 10pt;
+    outline: none;
+    box-sizing: border-box;
+}
+

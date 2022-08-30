@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-add.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Adicionar Cirúrgia</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="logomarca.png" alt="image">
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>        
+            </div>
+            <div class="sidebar">
+                <a href="page2.html">
+                    <span class="material-symbols-outlined">home</span>
+                    <h3>Home</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-symbols-outlined">add</span>
+                    <h3>Adicionar cirúrgia</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">calendar_month</span>
+                    <h3>Cronograma</h3>
+                    <div class="cronograma-count">
+                        <h3>1</h3>
+                    </div>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">person</span>
+                    <h3>Perfil</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">settings</span>
+                    <h3>Configurações</h3>
+                </a>
+                <a href="index.html">
+                    <span class="material-symbols-outlined">logout</span>
+                    <h3>Sair</h3>
+                </a>
+            </div>
+        </aside>
+        <main>
+            <div class="tela-add">
+                <div class="add-top">
+                    <h1>Adicionar cirúrgia</h1>
+                </div>
+                <div class="corpo-formulario">
+                    <div class="add-meio">
+                        <div class="nome-medico">
+                            <h3>Medico executor</h3>
+                        <div class="titulos">
+                            <a>CRM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                            <a>Nome</a>
+                        </div>
+                        <div class="inputs">
+                            <div class="input-crm">
+                                <input type="text" name="nome" id="nome-ex" placeholder="Ex: crm1234">
+                                <span class="material-symbols-outlined">search</span>
+                            </div>
+                            <div class="input-nome">
+                                <input type="text" name="nome" id="nome-ex" placeholder="Nome">
+                                <span class="material-symbols-outlined">search</span>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="dados-paciente">
+                            <div class="titulo-paciente">
+                                <h3>Dados do paciente</h3>
+                            </div>
+                            <div class="titulos-paciente">
+                                <a>Nome do paciente&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a> 
+                                <a>N° Registro&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                                <a>CPF</a>
+                            </div>
+                            <div class="intputs-paciente">
+                                <input type="text" name="nome-paciente" id="nome-paciente" placeholder="">
+                                <input type="text" name="rg-paciente" id="rg-paciente">
+                                <input type="text" name="cpf-paciente" id="cpf-paciente">
+                            </div>
+                        </div>
+                        <div class="procedimento">
+                            <h3>Procedimento</h3>
+                            <input type="text">
+                        </div>
+                        <div class="dados-convenio">
+                            <div class="titulo-convenio">
+                                <a>Convenio</a>
+                                <a>Plano</a>
+                            </div>
+                            <div class="inputs-conevenio">
+                                <input type="text" name="convenio" id="convenio">
+                                <input type="text" name="plano" id="plano">
+                            </div>
+                        </div>
+                        <div class="data-proc">
+                            <h4>Data do procedimento</h4>
+                            <input type="date" name="data" id="data-cc">
+                        </div>
+                        <div class="hora-proc">
+                            <h4>Hora do procedimento</h3>
+                            <table>
+                                <thead>
+                                    <th>Inicio previsto</th>
+                                    <th>Fim previsto</th>
+                                </thead>
+                                <tbody>
+                                    <td><input type="time" name="" id=""></td>
+                                    <td><input type="time" name="" id=""></td>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="add-footer">
+                        <button class="btn-login"><h4>ENVIAR</h4></button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="rigth">
+            <div class="top">
+                <div class="tema">
+                    <span class="material-symbols-outlined active">light_mode</span>
+                    <span class="material-symbols-outlined">dark_mode</span>
+                </div>
+                <div class="perfil">
+                    <div class="info">
+                        <b>Samuel Lima</b>
+                        <p>Admin</p>
+                    </div>
+                    <div class="foto-perfil">
+                        <img src="perfil.png" alt="perfil" height="45px">
+                    </div> 
+                </div>
+            </div>
+            #################
+        </div>
+    </div>
+</body>
+</html>
