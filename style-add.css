@@ -356,12 +356,62 @@ main .tela-add .add-meio .procedimento h3{
 }
 
 main .tela-add .add-meio .procedimento input{
+    width: 196PX;
     border: none;
     border-radius: 4px;
-    padding: 5.5px;
+    padding: 4.5px;
     background: #DCDCDC;
     font-size: 10pt;
     outline: none;
     box-sizing: border-box;
+    margin-right: 37PX;
 }
 
+main .tela-add .add-meio .dados-convenio{
+    margin-top: 0.4rem;
+    display: flex;
+}
+
+main .tela-add .add-meio .dados-convenio .convenio{
+    display: flex;
+    flex-direction: column;
+}
+
+main .tela-add .add-meio .dados-convenio .plano{
+    display: flex;
+    flex-direction: column;
+}
+
+main .tela-add .add-meio .dados-convenio .convenio a{
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+main .tela-add .add-meio .titulo-convenio{
+    margin-top: 1rem;
+}
+
+main .tela-add .add-meio .titulo-convenio h3{
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+}
+
+main .tela-add .add-meio .dados-convenio input{
+    width: 196PX;
+    border: none;
+    border-radius: 4px;
+    padding: 4.5px;
+    background: #DCDCDC;
+    font-size: 10pt;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 37PX;
+}
+
+main .tela-add .add-meio .dados-convenio a{
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
