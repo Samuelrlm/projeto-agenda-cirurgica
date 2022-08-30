@@ -75,16 +75,16 @@ aside{
 }
 
 aside .top{
-    background: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 1.4rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 aside .logo img{
-    width: 110px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
 }
 
 aside .close{
