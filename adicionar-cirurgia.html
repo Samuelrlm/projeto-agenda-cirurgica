@@ -113,17 +113,24 @@
                             <input type="date" name="data" id="data-cc">
                         </div>
                         <div class="hora-proc">
-                            <h4>Hora do procedimento</h3>
-                            <table>
-                                <thead>
-                                    <th>Inicio previsto</th>
-                                    <th>Fim previsto</th>
-                                </thead>
-                                <tbody>
-                                    <td><input type="time" name="" id=""></td>
-                                    <td><input type="time" name="" id=""></td>
-                                </tbody>
-                            </table>
+                            <h4>Hora do procedimento</h4>
+                            <div class="horas">
+                                <div class="hr-inicio">
+                                    <a>Inicio previsto</a>
+                                    <input type="time" name="hr-inicio" id="time-inicio">
+                                </div>
+                                <div class="hr-fim">
+                                    <a>Fim previsto</a>
+                                    <input type="time" name="hora-fim" id="time-final">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arquivos">
+                            <h4>Anexar arquivos</h4>
+                            <h3>Clique ou arraste um arquivo</h3>
+                            <div class="input-aquivos">
+                                <input type="file" name="arquivos" id="arquivos-paciente">
+                            </div>
                         </div>
                     </div>
                     <div class="add-footer">
@@ -148,7 +155,15 @@
                     </div> 
                 </div>
             </div>
-            #################
+            <div class="observa">
+                <div class="titulo-observa">
+                    <span class="material-symbols-outlined">description</span>
+                    <h2>Observações</h2>
+                </div>
+                <div class="meio-observa">
+                    <textarea rows="5" cols="50"></textarea>
+                </div>
+            </div>
         </div>
     </div>
 </body>

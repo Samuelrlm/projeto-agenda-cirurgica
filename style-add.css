@@ -235,12 +235,17 @@ img[src="perfil.png"]{
 }
 
 main .tela-add .corpo-formulario{
-    
     background: #fff;
-    height: 600px;
     border-radius: 18px;
     display: flex;
     flex-direction: column;
+    padding: 0rem;
+}
+
+main .tela-add {
+    margin-top: 1rem;
+    width: 800px;
+ 
 }
 
 main .tela-add .add-meio .dados-paciente table{
@@ -414,4 +419,156 @@ main .tela-add .add-meio .dados-convenio a{
     font-weight: 400;
     color: black;
     font-size: 14px;
+}
+
+main .tela-add .add-meio .data-proc{
+    margin-top: 1rem;
+}
+
+main .tela-add .add-meio .data-proc h4{
+    font-size: 14px;
+}
+
+main .tela-add .add-meio .data-proc input{
+    width: 196PX;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    background: #DCDCDC;
+    font-size: 10pt;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 37PX;
+    cursor: pointer;
+}
+
+main .tela-add .add-meio .hora-proc {
+    margin-top: 1rem;
+}
+
+main .tela-add .add-meio .hora-proc h4{
+    font-size: 14px;
+}
+
+main .tela-add .add-meio .hora-proc .horas{
+    display: flex;
+    gap: 3rem;
+}
+
+main .tela-add .add-meio .hora-proc .horas .hr-inicio{
+    display: flex;
+    flex-direction: column;
+}
+
+main .tela-add .add-meio .hora-proc .horas .hr-fim{
+    display: flex;
+    flex-direction: column;
+}
+
+main .tela-add .add-meio .hora-proc .horas a{
+    margin-top: 3px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+
+main .tela-add .add-meio .hora-proc .horas input{
+    width: 80PX;
+    border: none;
+    border-radius: 4px;
+    padding: 3.6px;
+    background: #DCDCDC;
+    font-size: 10pt;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 37PX;
+    cursor: pointer;
+}
+
+main .tela-add .add-meio .arquivos{
+    margin-top: 1rem;
+}
+
+main .tela-add .add-meio .arquivos h4{
+    font-size: 14px;
+    width: 800px;
+}
+
+main .tela-add .add-meio .arquivos h3{
+    margin-top: 3px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+main .tela-add .add-meio .arquivos .input-aquivos input{
+    margin-right: 13px;
+    margin-top: 2px;
+    padding: 5rem;
+    width: 770px;
+    background: #DCDCDC;
+    border-radius: 7px;
+}
+
+main .tela-add .add-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main .tela-add .add-footer button{
+    margin-bottom: 1rem;
+    width: 100px;
+    padding: 13px 0px;
+    background: #418bec;
+    color: #FFFFFF;
+    margin-top: 12px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #9fc1ee;
+}
+
+main .tela-add .add-footer button:hover{
+    margin-bottom: 1rem;
+    width: 100px;
+    padding: 13px 0px;
+    background: #82b2f0;
+    color: #FFFFFF;
+    margin-top: 12px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #9fc1ee;
+}
+
+
+.rigth .observa{
+    background: #fff;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.rigth .observa .titulo-observa{
+    display: flex;
+    margin-left: 1rem;
+}
+
+.rigth .observa textarea{
+    display: flex;
+    border-color:#DCDCDC;
+    width: 288px;
+    height: 288px;
+    align-items: flex-start;
+    text-align: start;
+    justify-content: flex-start;
+    border-radius: 5px;
 }

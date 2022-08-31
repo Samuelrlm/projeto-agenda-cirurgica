@@ -97,6 +97,36 @@ body{
     box-shadow: 0px 10px 40px -12px #9fc1ee;
 }
 
+.btn-login{
+    width: 145px;
+    padding: 16px 0px;
+    background: #418bec;
+    color: #FFFFFF;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #9fc1ee;
+}
+
+.btn-login:hover{
+    width: 145px;
+    padding: 16px 0px;
+    background: #82b2f0;
+    color: #FFFFFF;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #9fc1ee;
+}
+
 .logo img[src="logomarca.png"]{
     margin-top: 50px;
     margin-left: 30px;
