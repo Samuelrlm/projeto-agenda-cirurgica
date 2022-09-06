@@ -282,14 +282,26 @@ main .tela-add .add-meio .inputs{
     gap: 3rem;
 }
 
-main .tela-add .add-meio .inputs .input-crm{
-    background: #c7c8ca;
-    margin-top: 4px;
-    border-radius:4px;
+main .tela-add .add-meio .dados-medico{
+    display: flex;
+    gap: 3rem;
+}
+
+main .tela-add .add-meio .dados-medico .campo-crm,.campo-nome{
+    display: flex;
+    flex-direction: column;
+}
+
+main .tela-add .add-meio .dados-medico .campo-crm .input-crm{
     display: flex;
 }
 
-main .tela-add .add-meio .inputs .input-crm input{
+main .tela-add .add-meio .dados-medico .campo-nome .input-nome{
+    display: flex;
+}
+
+main .tela-add .add-meio .dados-medico .campo-crm .input-crm input{
+    display: flex;
     width: 90%;
     border: none;
     border-radius: 4px;
@@ -300,11 +312,21 @@ main .tela-add .add-meio .inputs .input-crm input{
     box-sizing: border-box;
 }
 
-main .tela-add .add-meio .inputs .input-nome{
-    background: #c7c8ca;
-    margin-top: 4px;
-    border-radius:4px;
+main .tela-add .add-meio .dados-medico .campo-nome .input-nome input{
     display: flex;
+    width: 90%;
+    border: none;
+    border-radius: 4px;
+    padding: 1px;
+    background: #DCDCDC;
+    font-size: 10pt;
+    outline: none;
+    box-sizing: border-box;
+}
+
+main .tela-add .add-meio .dados-medico .campo-crm .input-nome{
+    display: flex;
+    
 }
 
 main .tela-add .add-meio .inputs .input-nome input{
